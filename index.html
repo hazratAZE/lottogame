@@ -38,15 +38,11 @@
         font-size: 16px;
         opacity: 0.9;
       }
-      .btn {
-        display: inline-block;
-        margin-top: 25px;
-        padding: 15px 30px;
-        background: #22c55e;
-        color: #000;
-        text-decoration: none;
-        border-radius: 10px;
-        font-weight: bold;
+      .playstore-btn {
+        width: 100%;
+        max-width: 220px;
+        display: block;
+        margin: 25px auto 0;
       }
     </style>
   </head>
@@ -62,12 +58,16 @@
       <h1>Lotto90 – Онлайн Лото</h1>
       <p>Играйте, наслаждайтесь и испытайте свою удачу.</p>
 
+      <!-- Play Store butonu -->
       <a
-        class="btn"
         href="https://play.google.com/store/apps/details?id=com.lotogame.app"
         target="_blank"
       >
-        Скачать в Google Play
+        <img
+          src="https://worklytest.s3.eu-north-1.amazonaws.com/playstore.png"
+          alt="Скачать в Google Play"
+          class="playstore-btn"
+        />
       </a>
     </div>
   </body>
